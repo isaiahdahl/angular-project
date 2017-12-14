@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { FormsModule } from "@angular/forms";
 import { HeaderComponent } from './header/header.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { RecipesComponent } from './recipes/recipes.component';
@@ -24,7 +25,8 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     ShoppingEditComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
